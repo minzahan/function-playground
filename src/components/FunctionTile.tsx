@@ -9,7 +9,7 @@ export function FunctionTile({ name, path }: FunctionTileProps) {
   return (
     <Link
       to={path}
-      className="block border p-4 rounded hover:bg-gray-100 text-center shadow"
+      className="p-8 rounded-xl shadow-md bg-green-100 hover:bg-green-200 transition"
     >
       {name}
     </Link>

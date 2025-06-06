@@ -1,6 +1,7 @@
 import { Routes, Route, Link } from "react-router-dom";
 import AnimatePage from "./pages/AnimatePage";
 import UnusedAlphabetPage from "./pages/UnusedAlphabetPage";
+import { FunctionTile } from "./components/FunctionTile";
 
 export default function App() {
   return (
@@ -14,18 +15,8 @@ export default function App() {
           path="/"
           element={
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <Link
-                to="/animate"
-                className="p-8 rounded-xl shadow-md bg-green-100 hover:bg-green-200 transition"
-              >
-                Animate Function
-              </Link>
-              <Link
-                to="/unused-alphabet"
-                className="p-8 rounded-xl shadow-md bg-green-100 hover:bg-green-200 transition"
-              >
-                Unused Alphabet
-              </Link>
+              <FunctionTile name="Animate Function" path="/animate" />
+              <FunctionTile name="Unused Alphabet" path="/unused-alphabet" />
             </div>
           }
         />
