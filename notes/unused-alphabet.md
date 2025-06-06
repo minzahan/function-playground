@@ -2,7 +2,7 @@
 
 ## First Thoughts
 
-Python- python dictionary with every letter in alphabet as key and 0 as a value. We iterate through the input string and update the value of each letter that appears by +1 and at the end we find all the letters that had a value of 0 and join them into a string.
+Python dictionary with every letter in alphabet as a key and 0 as a value. We iterate through the input string and update the value of each letter that appears by +1 and at the end we find all the letters that had a value of 0 and join them into a string.
 
 - dictionary seems unnecessary
 - iterating through the string
@@ -20,7 +20,7 @@ Shift focus from the input string to the alphabet
 
 ```
 const unusedAlphabet1 = (input: string) => {
-  const cleanedInput = input.toLowerCase().replace(/[^a-z]/g, ""); // explain why regex is better
+  const cleanedInput = input.toLowerCase().replace(/[^a-z]/g, "");
   const inputArray: string[] = cleanedInput.split("");
   const alphabet: string[] = "abcdefghijklmnopqrstuvwxyz".split("");
   for (let i = 0; i < alphabet.length; i++) {
