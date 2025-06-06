@@ -3,12 +3,12 @@
 What is the input?
 
 - a string of chars and dots
-- there’s going to iteration of the string to find a char thats not a dot. - loop
+- there’s going to be an iteration of the string to find a char thats not a dot. - loop
 - once we find the char, whether its an R or an L will determine where it moves
 
 How do I move it?
 
-- to move it I need to know the current index that char is at.
+- to move it I need to know the current index that char is at
 - if its an R then it’ll be the current index + speed. - condition
 - if its an L then it’ll be the current index - speed. - condition
 - process needs to repeat until the char is out of the string - while loop
