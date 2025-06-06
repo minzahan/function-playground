@@ -2,6 +2,7 @@
 
 ## First Thoughts
 
+I am getting a string of characters and I need to know if it contains all 26 letters of the alphabet
 Python dictionary with every letter in alphabet as a key and 0 as a value. We iterate through the input string and update the value of each letter that appears by +1 and at the end we find all the letters that had a value of 0 and join them into a string.
 
 - dictionary seems unnecessary
