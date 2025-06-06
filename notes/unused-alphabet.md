@@ -19,7 +19,7 @@ Shift focus from the input string to the alphabet
 ## First iteration
 
 ```
-const ususedAlphabet1 = (input: string) => {
+const unusedAlphabet1 = (input: string) => {
   const cleanedInput = input.toLowerCase().replace(/[^a-z]/g, ""); // explain why regex is better
   const inputArray: string[] = cleanedInput.split("");
   const alphabet: string[] = "abcdefghijklmnopqrstuvwxyz".split("");
